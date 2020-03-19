@@ -125,6 +125,94 @@
 		</dict>
 		<key>HDMIInjection</key>
 		<false/>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>@0,name</key>
+				<string>ATY,Kamarang</string>
+				<key>@1,name</key>
+				<string>ATY,Kamarang</string>
+				<key>@2,name</key>
+				<string>ATY,Kamarang</string>
+				<key>@3,name</key>
+				<string>ATY,Kamarang</string>
+				<key>AAPL00,DualLink</key>
+				<string>{length = 4, bytes = 0x01000000}</string>
+				<key>ATY,Card#</key>
+				<string>109-D000A1-01</string>
+				<key>ATY,Copyright</key>
+				<string>Copyright AMD Inc. All Rights Reserved. 2005-2019</string>
+				<key>ATY,DeviceName</key>
+				<string>Vega 56</string>
+				<key>ATY,EFIVersion</key>
+				<string>016.001.001.000.008771</string>
+				<key>ATY,FamilyName</key>
+				<string>Radeon Pro</string>
+				<key>ATY,Rom#</key>
+				<string>113-D0500300-102</string>
+				<key>CAIL_EnableLBPWSupport</key>
+				<integer>0</integer>
+				<key>CAIL_EnableMaxPlayloadSizeSync</key>
+				<integer>1</integer>
+				<key>CFG_CAA</key>
+				<integer>0</integer>
+				<key>CFG_FB_LIMIT</key>
+				<integer>0</integer>
+				<key>CFG_FORCE_MAX_DPS</key>
+				<integer>1</integer>
+				<key>CFG_GEN_FLAGS</key>
+				<integer>0</integer>
+				<key>CFG_NO_MST</key>
+				<integer>0</integer>
+				<key>CFG_NVV</key>
+				<integer>2</integer>
+				<key>CFG_PAA</key>
+				<integer>0</integer>
+				<key>CFG_PULSE_INT</key>
+				<integer>1</integer>
+				<key>CFG_TPS1S</key>
+				<integer>1</integer>
+				<key>CFG_TRANS_WSRV</key>
+				<integer>1</integer>
+				<key>CFG_UFL_CHK</key>
+				<integer>0</integer>
+				<key>CFG_UFL_STP</key>
+				<integer>0</integer>
+				<key>CFG_USE_AGDC</key>
+				<integer>1</integer>
+				<key>CFG_USE_CP2</key>
+				<integer>1</integer>
+				<key>CFG_USE_CPSTATUS</key>
+				<integer>1</integer>
+				<key>CFG_USE_DPT</key>
+				<integer>1</integer>
+				<key>CFG_USE_FBC</key>
+				<integer>0</integer>
+				<key>CFG_USE_FBWRKLP</key>
+				<integer>1</integer>
+				<key>CFG_USE_FEDS</key>
+				<integer>1</integer>
+				<key>CFG_USE_LPT</key>
+				<integer>1</integer>
+				<key>CFG_USE_PSR</key>
+				<integer>0</integer>
+				<key>CFG_USE_SCANOUT</key>
+				<integer>1</integer>
+				<key>CFG_USE_SRRB</key>
+				<integer>0</integer>
+				<key>CFG_USE_STUTTER</key>
+				<integer>1</integer>
+				<key>CFG_USE_TCON</key>
+				<integer>1</integer>
+				<key>device_type</key>
+				<string>ATY,KamarangParent</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>AMD Radeon Pro Vega 56</string>
+			</dict>
+		</dict>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
@@ -199,7 +287,7 @@
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>3440x1440</string>
+		<string>1920x1080</string>
 		<key>ShowOptimus</key>
 		<false/>
 		<key>TextOnly</key>
@@ -269,7 +357,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>ROM</key>
-		<data>+XOsZjXl</data>
+		<data>oLQXnC32</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -284,7 +372,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02820403GUJG36JA</string>
+		<string>C02941130J9JG36JC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -314,18 +402,20 @@
 		<key>ProductName</key>
 		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
-		<string>C02WQ0JCHX87</string>
+		<string>C02ZJ5YKHX87</string>
 		<key>SmUUID</key>
-		<string>9E7C5EF6-96EB-4597-98B2-1CE2E46635E5</string>
+		<string>39A717E5-A3D1-421D-85B1-C732909C2DF6</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>C5BEA0BF-5D58-408D-8DE9-56AD6FF2721F</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
-		<false/>
+		<true/>
 	</dict>
 </dict>
 </plist>
